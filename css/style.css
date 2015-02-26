@@ -128,6 +128,15 @@ a {
   padding: 10px;
 }
 
+.flex-box-column {
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+}
+
 .center-content {
   padding-top: 2.5%;
   padding-left: 5%;
@@ -138,6 +147,7 @@ a {
 ul {
   list-style-type: none;
 }
+
 
 .biopic {
   float: left;
